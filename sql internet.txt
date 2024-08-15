@@ -1,0 +1,253 @@
+create table Datainternet 
+(Country varchar (1000) not null,
+ Users int not null,
+ Population int not null ,
+ Ranking int not null, 
+ Percentance varchar(1000) not null,
+ rankpersentance int not null);
+
+ INSERT INTO Datainternet(Country, Users, Population, Ranking, Percentance, rankpersentance) VALUES
+('China', 765367947, 1409517397, 1, '54.30%', 116),
+('India', 461347554, 1339180127, 2, '34.45%', 145),
+('United States', 244090854, 324459463, 3, '75.23%', 68),
+('Brazil', 141206801, 209288278, 4, '67.47%', 83),
+('Japan', 115845120, 127484450, 5, '90.87%', 23),
+('Russia', 109446612, 143989754, 6, '76.01%', 64),
+('Indonesia', 85242816, 263991379, 7, '32.29%', 150),
+('Mexico', 82470752, 129163276, 8, '63.85%', 92),
+('Germany', 69304405, 82114224, 9, '84.40%', 36),
+('Philippines', 63003313, 104918090, 10, '60.05%', 103),
+('United Kingdom', 62621016, 66181585, 11, '94.62%', 18),
+('Pakistan', 61837331, 220800300, 25, '30.68%', 184),
+('France', 52308536, 64979548, 13, '80.50%', 50),
+('Turkey', 52225879, 80745020, 14, '64.68%', 89),
+('Iran', 49038556, 81162788, 15, '60.42%', 101),
+('South Korea', 48484084, 50982212, 16, '95.10%', 15),
+('Vietnam', 47359575, 95540800, 17, '49.57%', 122),
+('Egypt', 3850141, 97553151, 18, '44.95%', 132),
+('Spain', 39215756, 46354321, 19, '84.60%', 33),
+('Thailand', 36513941, 69037513, 20, '52.89%', 117),
+('Italy', 36387619, 59359900, 21, '61.30%', 98),
+('Canada', 33950632, 36624199, 22, '92.70%', 22),
+('Argentina', 33561876, 44271041, 23, '75.81%', 67),
+('South Africa', 31858027, 56717156, 24, '56.17%', 111),
+('Nigeria', 30557175, 190015955, 12, '27.51%', 161),
+('Colombia', 30548252, 49065615, 26, '62.26%', 96),
+('Bangladesh', 30530435, 164669751, 27, '18.02%', 180),
+('Poland', 29005924, 38170712, 28, '75.99%', 66),
+('Saudi Arabia', 27048861, 32938213, 29, '82.12%', 39),
+('Malaysia', 25343685, 31624264, 30, '80.14%', 52),
+('Ukraine', 25260147, 44222947, 31, '57.12%', 109),
+('Morocco', 22072765, 35739580, 32, '61.76%', 97),
+('Taiwan', 21920626, 23626456, 33, '92.78%', 21),
+('Australia', 21159515, 24450561, 34, '86.54%', 31),
+('Venezuela', 20564451, 31977065, 35, '64.31%', 91),
+('Algeria', 19704622, 41318142, 36, '47.69%', 130),
+('Ethiopia', 19543075, 104957438, 37, '18.62%', 179),
+('Iraq', 18892351, 38274618, 38, '49.36%', 123),
+('Uzbekistan', 16692456, 31910641, 39, '52.31%', 118),
+('Myanmar', 16374103, 53370609, 40, '30.68%', 154),
+('Netherlands', 15877494, 17035938, 41, '93.20%', 20),
+('Peru', 15674241, 32165485, 42, '48.73%', 128),
+('Chile', 14864456, 18054726, 43, '82.33%', 38),
+('Kazakhstan', 13913699, 18204499, 44, '76.43%', 61),
+('Romania', 12545558, 19679306, 45, '63.75%', 93),
+('Sudan', 12512639, 40533330, 46, '30.87%', 153),
+('Ghana', 10922179, 28833629, 47, '37.88%', 140),
+('Ivory Coast', 10650818, 24294750, 48, '43.84%', 133),
+('Uganda', 10162807, 42862958, 49, '23.71%', 168),
+('Belgium', 10021242, 11429336, 50, '87.68%', 28),
+('Sweden', 9554907, 9910701, 51, '96.41%', 12),
+('Ecuador', 9521056, 16624858, 52, '57.27%', 107),
+('Tanzania', 9169603, 57310019, 53, '16.00%', 182),
+('United Arab Emirates', 8913217, 9400145, 54, '94.82%', 17),
+('Kenya', 8861485, 49699862, 55, '17.83%', 181),
+('Czech Republic', 8358728, 10618303, 56, '78.72%', 56),
+('Switzerland', 7942864, 8476005, 57, '93.71%', 19),
+('Greece', 7799565, 11159773, 58, '69.89%', 77),
+('Azerbaijan', 7763795, 9827589, 59, '79.00%', 54),
+('Austria', 7681957, 8735453, 60, '87.94%', 27),
+('Portugal', 7622142, 10329506, 61, '73.79%', 70),
+('Yemen', 7548512, 28250420, 62, '26.72%', 164),
+('Hungary', 7461297, 9721559, 63, '76.75%', 60),
+('Sri Lanka', 7121116, 20876917, 64, '34.11%', 147),
+('Belarus', 7048231, 9468338, 65, '74.44%', 69),
+('Democratic Republic of the Congo', 7011507, 81339988, 66, '8.62%', 200),
+('Dominican Republic', 6997472, 10766998, 67, '64.99%', 88),
+('Guatemala', 6883796, 16913503, 68, '40.70%', 137),
+('Israel', 6788737, 8321570, 69, '81.58%', 43),
+('Hong Kong', 6585678, 7364883, 70, '89.42%', 25),
+('Jordan', 6480202, 9702353, 71, '66.79%', 85),
+('Tunisia', 6400330, 11532127, 72, '55.50%', 114),
+('Nepal', 6271270, 29304998, 73, '21.40%', 174),
+('Syria', 6257430, 18269868, 74, '34.25%', 146),
+('Serbia', 6182411, 8790574, 75, '70.33%', 76),
+('Mozambique', 6162217, 29668834, 76, '20.77%', 177),
+('Cuba', 5638956, 11484636, 77, '49.10%', 125),
+('Cameroon', 5580465, 24053727, 78, '23.20%', 170),
+('Denmark', 5567278, 5733551, 79, '97.10%', 9),
+('Cambodia', 5441827, 16005373, 80, '34.00%', 148),
+('Norway', 5120225, 5305387, 81, '96.51%', 11),
+('Slovakia', 4969248, 5853037, 82, '84.83%', 32),
+('Qatar', 4856264, 2743547, 83, '77.44%', 59),
+('Oman', 4713151, 4830103, 84, '97.57%', 8),
+('Luxembourg', 4522522, 642371, 85, '70.41%', 75),
+('Bulgaria', 4429088, 7184260, 86, '61.67%', 99),
+('Kazakhstan', 4362145, 19563277, 87, '22.27%', 171),
+('Kuwait', 4289496, 4213834, 88, '98.00%', 7),
+('Liechtenstein', 4265000, 39265, 89, '108.64%', 1),
+('Moldova', 4063683, 2805000, 90, '144.92%', 3),
+('San Marino', 3983722, 33931, 91, '117.39%', 2),
+('Andorra', 3871120, 86232, 92, '448.11%', 4),
+('Monaco', 3734555, 31997, 93, '1167.09%', 5),
+('Vatican City', 3179656, 800, 94, '3974.00%', 6),
+('Palestine', 3145789, 4919856, 95, '63.97%', 94),
+('Western Sahara', 2785870, 542242, 96, '513.43%', 7),
+('Barbados', 2428500, 299086, 97, '812.57%', 8),
+('Antigua and Barbuda', 2372450, 98700, 98, '2402.68%', 9),
+('Saint Kitts and Nevis', 2257463, 56400, 99, '4007.38%', 10),
+('Saint Lucia', 2214485, 183627, 100, '1205.76%', 11),
+('Saint Vincent and the Grenadines', 2154311, 109100, 101, '1979.42%', 12),
+('Grenada', 2087553, 11200, 102, '18616.60%', 13),
+('Saint Barthelemy', 2012052, 9710, 103, '20750.47%', 14),
+('Saint Martin', 1986753, 36346, 104, '546.63%', 15),
+('Anguilla', 1939089, 18300, 105, '10601.70%', 16),
+('British Virgin Islands', 1873451, 30200, 106, '6203.19%', 17),
+('Montserrat', 1817342, 4970, 107, '36520.59%', 18),
+('Falkland Islands', 1745281, 3180, 108, '54804.78%', 19),
+('Norfolk Island', 1670124, 2000, 109, '83506.82%', 20),
+('Pitcairn Islands', 1592746, 50, 110, '3185492.00%', 21),
+('Svalbard', 1517431, 2750, 111, '55136.00%', 22),
+('Faroe Islands', 1453654, 50000, 112, '29.07%', 155),
+('Cayman Islands', 1382864, 68200, 113, '20.29%', 176),
+('Turks and Caicos Islands', 1286361, 41300, 114, '31.18%', 157),
+('Bermuda', 1195700, 64900, 115, '18.41%', 171),
+('Samoa', 1135567, 26000, 116, '43.62%', 126),
+('Tonga', 1048061, 10500, 117, '99.33%', 13),
+('American Samoa', 983845, 55200, 118, '17.81%', 173),
+('Vanuatu', 890731, 28750, 119, '30.95%', 156),
+('Kiribati', 861123, 21000, 120, '41.00%', 128),
+('Tuvalu', 844321, 13000, 121, '64.54%', 104),
+('Solomon Islands', 818154, 30000, 122, '27.27%', 163),
+('Nauru', 783450, 10800, 123, '72.52%', 107),
+('Palau', 746501, 21300, 124, '35.03%', 149),
+('Tuvalu', 712438, 10200, 125, '69.92%', 108),
+('Micronesia', 683410, 29300, 126, '23.32%', 171),
+('Marshall Islands', 663781, 22000, 127, '30.20%', 157),
+('Tonga', 629051, 10600, 128, '59.33%', 110),
+('Saint Helena', 611010, 3600, 129, '169.18%', 1),
+('Montserrat', 591322, 5400, 130, '109.46%', 5),
+('Norfolk Island', 568293, 2700, 131, '210.84%', 2),
+('Tokelau', 545120, 1500, 132, '363.41%', 3),
+('Pitcairn Islands', 511031, 100, 133, '5110.31%', 4),
+('American Samoa', 493123, 49000, 134, '10.06%', 175),
+('Samoa', 475925, 23300, 135, '20.43%', 172),
+('Andorra', 458912, 98000, 136, '4.68%', 199),
+('Monaco', 433676, 39100, 137, '110.99%', 6),
+('San Marino', 415823, 33200, 138, '125.23%', 8),
+('Liechtenstein', 406245, 39700, 139, '102.32%', 10),
+('Luxembourg', 389461, 51100, 140, '76.26%', 87),
+('Vatican City', 371089, 800, 141, '463.86%', 7),
+('Malta', 357648, 32000, 142, '111.17%', 6),
+('Bermuda', 336125, 85000, 143, '39.48%', 150),
+('Hong Kong', 315724, 72800, 144, '43.37%', 149),
+('British Virgin Islands', 297612, 32100, 145, '92.77%', 23),
+('Norway', 279481, 134000, 146, '20.83%', 174),
+('Svalbard', 252046, 34000, 147, '74.54%', 112),
+('Falkland Islands', 228109, 4000, 148, '57.02%', 113),
+('Samoa', 214378, 11000, 149, '48.53%', 125),
+('Tokelau', 198639, 650, 150, '305.28%', 10),
+('Saint Kitts and Nevis', 186275, 50000, 151, '37.25%', 139),
+('Saint Vincent and the Grenadines', 178356, 9000, 152, '19.82%', 177),
+('Antigua and Barbuda', 166743, 71500, 153, '23.32%', 158),
+('Saint Lucia', 155091, 21500, 154, '72.15%', 101),
+('Grenada', 141866, 12800, 155, '110.89%', 11),
+('Anguilla', 128748, 3200, 156, '40.88%', 159),
+('Saint Barthelemy', 115403, 1290, 157, '89.33%', 25),
+('British Virgin Islands', 105543, 35000, 158, '30.45%', 162),
+('Montserrat', 96321, 4600, 159, '20.93%', 173),
+('Vatican City', 86542, 800, 160, '108.18%', 6),
+('Palau', 74520, 2300, 161, '32.37%', 151),
+('Solomon Islands', 65321, 28000, 162, '23.32%', 169),
+('Nauru', 51243, 11000, 163, '46.66%', 136),
+('Kiribati', 47123, 21000, 164, '22.43%', 171),
+('Micronesia', 39872, 29300, 165, '13.60%', 176),
+('Marshall Islands', 38675, 22000, 166, '17.56%', 173),
+('Tuvalu', 35167, 10200, 167, '34.46%', 158),
+('Tokelau', 31487, 1500, 168, '20.99%', 173),
+('Pitcairn Islands', 28875, 100, 169, '28875.00%', 1),
+('Norfolk Island', 25847, 2700, 170, '95.59%', 9),
+('Svalbard', 24827, 34000, 171, '73.65%', 110),
+('Falkland Islands', 23198, 4000, 172, '57.00%', 114),
+('Andorra', 21589, 98000, 173, '22.04%', 175),
+('Monaco', 19842, 39100, 174, '50.77%', 148),
+('San Marino', 18243, 33200, 175, '54.93%', 137),
+('Liechtenstein', 16956, 39700, 176, '42.70%', 159),
+('Luxembourg', 15834, 51100, 177, '30.94%', 164),
+('Vatican City', 14623, 800, 178, '182.79%', 8),
+('Malta', 13321, 32000, 179, '41.00%', 145),
+('Bermuda', 12023, 85000, 180, '14.14%', 181),
+('Hong Kong', 11112, 72800, 181, '15.25%', 176),
+('British Virgin Islands', 10230, 32100, 182, '31.85%', 179),
+('Norway', 9408, 134000, 183, '7.03%', 186),
+('Svalbard', 8203, 34000, 184, '24.11%', 171),
+('Falkland Islands', 7312, 4000, 185, '18.28%', 176),
+('Samoa', 6407, 11000, 186, '58.25%', 128),
+('Tokelau', 5309, 650, 187, '815.23%', 1),
+('Saint Kitts and Nevis', 4235, 50000, 188, '8.47%', 191),
+('Saint Vincent and the Grenadines', 3179, 9000, 189, '35.43%', 162),
+('Antigua and Barbuda', 2571, 71500, 190, '3.59%', 194),
+('Saint Lucia', 2034, 21500, 191, '9.46%', 193),
+('Grenada', 1632, 12800, 192, '12.75%', 193),
+('Anguilla', 1287, 3200, 193, '40.84%', 160),
+('Saint Barthelemy', 980, 1290, 194, '75.96%', 146),
+('British Virgin Islands', 871, 35000, 195, '2.49%', 195),
+('Montserrat', 754, 4600, 196, '16.39%', 190),
+('Vatican City', 634, 800, 197, '79.25%', 179),
+('Palau', 512, 2300, 198, '22.26%', 179),
+('Solomon Islands', 394, 28000, 199, '1.41%', 200),
+('Nauru', 294, 11000, 200, '2.67%', 200);
+
+
+
+-- View untuk Asia
+CREATE VIEW Asia AS
+SELECT * 
+FROM Datainternet
+WHERE Country IN ('China', 'India', 'Indonesia', 'Iran', 'Iraq', 'Israel', 'Japan', 'Malaysia', 'Pakistan', 'Philippines', 'Saudi Arabia', 'South Korea', 'Turkey', 'Vietnam');
+
+-- View untuk Afrika
+CREATE VIEW Africa_Internet_Users AS
+SELECT * 
+FROM Datainternet
+WHERE Country IN ('Egypt', 'Morocco', 'Nigeria', 'South Africa', 'Sudan', 'Tanzania', 'Uganda', 'Zimbabwe');
+
+-- View untuk Eropa
+CREATE VIEW Europe AS
+SELECT * 
+FROM Datainternet
+WHERE Country IN ('Austria', 'Belgium', 'Bulgaria', 'Croatia', 'Cyprus', 'Czech Republic', 'Denmark', 'Estonia', 'Finland', 'France', 'Germany', 'Greece', 'Hungary', 'Iceland', 'Ireland', 'Italy', 'Latvia', 'Lithuania', 'Luxembourg', 'Malta', 'Netherlands', 'Norway', 'Poland', 'Portugal', 'Romania', 'Slovakia', 'Slovenia', 'Spain', 'Sweden', 'Switzerland', 'Ukraine', 'United Kingdom');
+
+-- View untuk Amerika Utara
+CREATE VIEW North_America_Internet_Users AS
+SELECT * 
+FROM Datainternet
+WHERE Country IN ('Canada', 'Costa Rica', 'Cuba', 'Dominican Republic', 'El Salvador', 'Guatemala', 'Haiti', 'Honduras', 'Mexico', 'Nicaragua', 'Panama', 'United States');
+
+-- View untuk Amerika Selatan
+CREATE VIEW South_America_Internet_Users AS
+SELECT * 
+FROM Datainternet
+WHERE Country IN ('Argentina', 'Bolivia', 'Brazil', 'Chile', 'Colombia', 'Ecuador', 'Guyana', 'Paraguay', 'Peru', 'Suriname', 'Uruguay', 'Venezuela');
+
+-- View untuk Oseania
+CREATE VIEW Oceania_Internet_Users AS
+SELECT * 
+FROM Datainternet
+WHERE Country IN ('Australia', 'Fiji', 'Kiribati', 'Marshall Islands', 'Micronesia', 'Nauru', 'New Zealand', 'Palau', 'Papua New Guinea', 'Samoa', 'Solomon Islands', 'Tonga', 'Tuvalu', 'Vanuatu');
+
+-- View untuk Karibia
+CREATE VIEW Caribbean_Internet_Users AS
+SELECT * 
+FROM Datainternet
+WHERE Country IN ('Antigua and Barbuda', 'Bahamas', 'Barbados', 'Cuba', 'Dominica', 'Grenada', 'Haiti', 'Jamaica', 'Saint Kitts and Nevis', 'Saint Lucia', 'Saint Vincent and the Grenadines', 'Trinidad and Tobago');
